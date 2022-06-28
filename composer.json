@@ -1,5 +1,5 @@
 {
-    "name": "jackwh/laravel-new-relic",
+    "name": "iskander-g/laravel-new-relic",
     "description": "Monitor your Laravel application performance with New Relic",
     "keywords": [
         "JackWH",
@@ -9,7 +9,7 @@
         "performance",
         "monitoring"
     ],
-    "homepage": "https://github.com/JackWH/laravel-new-relic",
+    "homepage": "https://github.com/iskander-g/laravel-new-relic",
     "license": "MIT",
     "authors": [
         {
