@@ -77,9 +77,7 @@ class NewRelicMiddleware
         return config('new-relic.http.prefix') . (
             $this->getCustomTransactionName($request)
                 ?? $this->getLivewireTransactionName($request)
-                ?? $request->route()?->getName()
-                ?? $request->route()?->getActionName()
-                ?? $request->path()
+                ?? $request->host() . "/" . $request->path()
         );
     }
 
